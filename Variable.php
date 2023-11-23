@@ -23,3 +23,11 @@ echo "\n";
 echo "Contoh : ";
 echo $Ahmad;
 echo "\n";
+
+//Mengahpus Variable//
+$nama = "Zahir";
+unset($nama);
+
+echo $nama;
+
+//isset untuk mengecek apakah variable ada dan nilainya tidak null//
